@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "satisListesi",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "satislistArama": "//input[@name='searchValue']"
+        },
+        {
+          "satislistesi": "//span[text()='Sat\u0131\u015F Listesi']"
+        },
+        {
+          "satislistAramaBtn": "//button[@class='MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root muiltr-d62cqm']"
+        },
+        {
+          "satisTipi": "//div[@id='direction']"
+        },
+        {
+          "SurecBasarili": "//div[text()='Ba\u015Far\u0131l\u0131']"
+        },
+        {
+          "SurecHatali": "//div[text()='Hatal\u0131']"
+        },
+        {
+          "SurecIslemde": "//div[text()='\u0130\u015Flemde']"
+        },
+        {
+          "SurecIptal": "//div[text()='\u0130ptal']"
+        },
+        {
+          "belgeTipi": "//div[text()='Fatural\u0131 Sat\u0131\u015F']"
+        },
+        {
+          "belgeTipiFisli": "//div[text()='Fi\u015Fli Sat\u0131\u015F']"
+        },
+        {
+          "Incele": "//span[text()='visibility']"
+        },
+        {
+          "IptalEt": "//span[text()='cancel']"
+        },
+        {
+          "Kaydet": "//span[text()='download']"
+        },
+        {
+          "ucret125_00": "//div[text()='125.00']"
+        },
+        {
+          "Kdv20": "//div[text()='0.20']"
+        },
+        {
+          "KdvTutar": "//div[text()='25.00']"
+        },
+        {
+          "TCKN": "//p[text()='TCKN']"
+        },
+        {
+          "TCno": "//h6[text()='33212312342']"
+        },
+        {
+          "GSMkontorl": "//h6[text()='0542542542']"
+        },
+        {
+          "Geri": "//span[text()='arrow_left']"
+        },
+        {
+          "faturaIptal": "//span[text()='cancel']"
+        },
+        {
+          "faturaIptalTamam": "//button[text()='Tamam']"
+        },
+        {
+          "faturaIptalEt": "//button[text()='\u0130PTAL ET']"
+        },
+        {
+          "Tamam": "//button[text()='Tamam']"
+        },
+        {
+          "BasariliIptal": "//div[text()='Fi\u015Fli Sat\u0131\u015F \u0130ptal Edildi, \u00DCr\u00FCnler envantere geri al\u0131nd\u0131']"
+        },
+        {
+          "faturaDetay": "//h5"
+        },
+        {
+          "faturaDetaylariSatisDetaylari": "//h6[@class='MuiTypography-root MuiTypography-h6 MuiTypography-alignRight muiltr-1hpuv4n']"
+        },
+        {
+          "faturaDetaylariUrunDetaylari": "//div[@class='flex items-center gap-4']"
+        },
+        {
+          "tekrarDene": "//button[text()='TEKRAR DENE']"
+        },
+        {
+          "tamamBtn": "//button[contains(text(), 'Tamam')]"
+        },
+        {
+          "cariBilgiler": "//input[@name='cari_info']"
+        }
+      ]
+    }
+  ]
+}
+
+

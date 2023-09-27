@@ -1,0 +1,163 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "topluStokGirisi",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "topluStokGirisi button": "//span[text()='Toplu Stok Giri\u015Fi']"
+        },
+        {
+          "topluStokGirisiLaptopicon": "//span[text()='laptop']"
+        },
+        {
+          "topluStokGirisiComputer": "//span[text()='computer']"
+        },
+        {
+          "topluStokGirisiEkraniBasligi": "//div[text()='Toplu Stok Giri\u015Fi']"
+        },
+        {
+          "topluStokGirisiDurum": "//div[text()='Durum']"
+        },
+        {
+          "topluStokGirisiDosyaAdi": "//div[text()='Dosya Ad\u0131']"
+        },
+        {
+          "topluStokGirisiDetayliAciklama": "//div[text()='Detayl\u0131 A\u00E7\u0131klama']"
+        },
+        {
+          "topluStokGirisiadd": "//span[@aria-label= 'add']"
+        },
+        {
+          "topluStokGirisiadd2": "//*[@id=\"fuse-main\"]/div/div/div[3]/div[3]/div[2]/div[1]/div/div/label/span"
+        },
+        {
+          "dosyaAdiInput" : "//input[@class='MuiOutlinedInput-input MuiInputBase-input muiltr-1od4la4']"
+        },
+        {
+          "topluStokGirisiImeiInputAlani" : "(//input[@class='MuiOutlinedInput-input MuiInputBase-input muiltr-1od4la4'])[3]"
+        },
+        {
+          "topluStokGirisiBarkodInputAlani" : "(//input[@class='MuiOutlinedInput-input MuiInputBase-input muiltr-1od4la4'])[2]"
+        },
+        {
+          "topluStokGirisiAdetInputAlani" : "(//input[@class='MuiOutlinedInput-input MuiInputBase-input muiltr-1od4la4'])[4]"
+        },
+        {
+          "degisiklikleriKaydetBtn": "//button[text()='De\u011Fi\u015Fiklikleri Kaydet']"
+        },
+        {
+          "guncellemeBasarili": "//div[text()='G\u00FCncelleme Ba\u015Far\u0131l\u0131']"
+        },
+        {
+          "tamamBtn": "//button[text()='Tamam']"
+        },
+        {
+          "tamamlandiBilgisi": "//div[text()='Tamamland\u0131']"
+        },
+        {
+          "envantereEklendiBilgisi": "//div[text()='Envantere eklendi']"
+        },
+        {
+          "envantereEklenemediBilgisi": "//div[text()='Envantere eklenemedi']"
+        },
+        {
+          "basariliDosyaAdi": "//button[contains(text(),'Stock2.0_W_Basarili')]"
+        },
+        {
+          "basariliDosyaAdiAdet2": "//button[contains(text(),'Stock2.0_W_Basarili_Adet2')]"
+        },
+        {
+          "basariliDosyaAdiEkstraSheet": "//button[contains(text(),'Stock2.0_W_Basarili_EkstraSheet')]"
+        },
+        {
+          "basariliDosyaAdiImeisiz100FarkliUrun": "//button[contains(text(),'Stock2.0_S_Basarili_Imeisiz_100_Farkli_Urun')]"
+        },
+        {
+          "stogaBasariliEklendiAciklamasi": "//p[text()='\u00DCr\u00FCnleriniz ba\u015Far\u0131l\u0131 bir \u015Fekilde sto\u011Fa eklendi']"
+        },
+        {
+          "kayitlarDogruGirilmeliHatasi" : "//p[contains(text(),'\u00DCr\u00FCnlerin sto\u011Fa girilebilmesi i\u00E7in t\u00FCm kay\u0131tlar\u0131n do\u011Fru olu\u015Fturulmas\u0131 gereklidir')]"
+        },
+        {
+          "kayitBulunamadiHatasi" : "//p[contains(text(),'Dosyada kay\u0131t bulunmamaktad\u0131r')]"
+        },
+        {
+          "closeBtn": "//span[text()='close']"
+        },
+        {
+          "hataBilgisi": "//div[text()='Hata']"
+        },
+        {
+          "iptalEdildiBilgisi": "//div[text()='\u0130ptal Edildi']"
+        },
+        {
+          "hataliDosyaAdi16KarakteliImei": "//button[contains(text(),'Stock2.0_W_Hatali_16KarakterliImei')]"
+        },
+        {
+          "hataliDosyaAdiBarkodBos": "//button[contains(text(),'Stock2.0_W_Hatali_BarkodBos')]"
+        },
+        {
+          "hataliDosyaAdiBarkodYanlis": "//button[contains(text(),'Stock2.0_W_Hatali_BarkodYanlis')]"
+        },
+        {
+          "hataliDosyaAdiAdetBos": "//button[contains(text(),'Stock2.0_W_Hatali_AdetBos')]"
+        },
+        {
+          "hataliDosyaAdiBosSablon": "//button[contains(text(),'Stock2.0_W_Hatali_BosSablon')]"
+        },
+        {
+          "hataliDosyaAdiIcciliGonderememe": "//button[contains(text(),'Stock2.0_W_Hatali_IcciliGonderememe')]"
+        },
+        {
+          "hataliDosyaAdiImeiTekrarlayanFarkliUrun": "//button[contains(text(),'Stock2.0_W_Hatali_ImeiTekrarlayanFarkliUrun')]"
+        },
+        {
+          "hataliDosyaAdiImeiTekrarlayanAyniUrun": "//button[contains(text(),'Stock2.0_W_Hatali_ImeiTekrarlayanAyniUrun')]"
+        },
+        {
+          "hataliDosyaAdiVarOlanUrun": "//button[contains(text(),'Stock2.0_W_Hatali_VarOlanUrun')]"
+        },
+        {
+          "hataliDosyaAdi250KarakterdenFazla": "//button[contains(text(),'Stock2.0_W_Hatali_250KarakterdenFazla')]"
+        },
+        {
+          "dosyaYuklemeIptalBilgisi": "//p[contains(text(),'Dosya y\u00FCkleme i\u015Fleminiz iptal edildi')]"
+        },
+        {
+          "dosyaYuklemeImeiTekrarlayan Eski": "//p[contains(text(),'\u00DCr\u00FCnleriniz sto\u011Fa eklenirken girdi\u011Finiz imei(ler)in daha \u00F6nce kullan\u0131ld\u0131\u011F\u0131 tespit edildi')]"
+        },
+        {
+          "dosyaYuklemeImeiTekrarlayan": "//p[contains(text(),'Bu imei(ler) zaten stoklarda sat\u0131lmay\u0131 bekliyorlar')]"
+        },
+        {
+          "durumBilgisi16KarakterliImei": "//div[text()='imei alan\u0131 15 karakterden olu\u015Fmal\u0131d\u0131r.']"
+        },
+        {
+          "durumBilgisiBarkodBos": "//div[text()='barcode alan\u0131 bo\u015F b\u0131rak\u0131lamaz']"
+        },
+        {
+          "durumBilgisiBarkodYanlis": "//div[text()='Eklemeye \u00E7al\u0131\u015Ft\u0131\u011F\u0131n\u0131z barkod sistemde kay\u0131tl\u0131 de\u011Fil, l\u00FCtfen barkodu kontrol ediniz']"
+        },
+        {
+          "durumBilgisiAdetBos": "//div[contains(text(),'quantity alan\u0131 bo\u015F b\u0131rak\u0131lamaz')]"
+        },
+        {
+          "durumBilgisiIcciliGonderememe": "//div[contains(text(),'Icci Excel Import ile bayinin sto\u011Funa eklenemez.')]"
+        },
+        {
+          "durumBilgisiAdet2": "//div[text()='Takipli \u00FCr\u00FCn 1 den fazla olamaz; adet alan\u0131 1 olarak de\u011Fi\u015Ftirildi']"
+        },
+        {
+          "durumBilgisiImeiTekrarlayan": "//div[text()='Bu imei sistemde kay\u0131tl\u0131d\u0131r.']"
+        },
+        {
+          "nameAlaniUzunluguBilgisi": "//div[text()='name alan\u0131n\u0131n uzunlu\u011Fu 250 den k\u00FC\u00E7\u00FCk olmal\u0131d\u0131r.']"
+        }
+      ]
+    }
+  ]
+}

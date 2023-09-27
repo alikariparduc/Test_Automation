@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "fatura",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "siparisOlusturuldu": "//*[text()='Sipari\u015F Olu\u015Fturuldu']"
+        },
+        {
+          "faturaGonderildi": "//*[contains(text(),'Fatura G\u00F6nderildi')]"
+        },
+        {
+          "faturaOlusturuldu": "//*[text()='Fatura Olu\u015Fturuldu']"
+        },
+        {
+          "erpServiseGonderilecek": "//*[text()='Fatura olu\u015Ftuktan sonra ERP servise g\u00F6nderilecektir']"
+        },
+        {
+          "erpServiseGonderildi": "//*[text()='Fatura ERP servise g\u00F6nderildi']"
+        },
+        {
+          "erpServiseKaydedildi": "//*[text()='Fatura ERP servise kaydedildi. ERP (DAP) sisteminin veriyi almas\u0131 bekleniyor']"
+        },
+        {
+          "fisOlusturuldu": "//*[text()='Fi\u015F Olu\u015Fturuldu']"
+        },
+        {
+          "faturaEntegratoreGonderilirkenHataOlustu": "//*[text()='Fatura Entegrat\u00F6re G\u00F6nderilirken Hata Olu\u015Ftu']"
+        },
+        {
+          "faturaTamamlanamadiERPServiseGonderilemedi": "//*[text()='Fatura ba\u015Far\u0131yla tamamlanamad\u0131\u011F\u0131 i\u00E7in ERP servise g\u00F6nderilemedi']"
+        },
+        {
+          "iptalSureciBasladi": "//*[text()='\u0130ptal S\u00FCreci Ba\u015Flad\u0131']"
+        },
+        {
+          "fisliSatisIptalEdildiUrunlerEnvantereAlindi": "//*[text()='Fi\u015Fli Sat\u0131\u015F \u0130ptal Edildi, \u00DCr\u00FCnler envantere geri al\u0131nd\u0131']"
+        },
+        {
+          "faturaIptalEdildiUrunlerinEnvantereAlinmasiBekleniyor": "//*[text()='Fatura \u0130ptal Edildi, \u00DCr\u00FCnlerin envantere geri al\u0131nmas\u0131 bekleniyor']"
+        },
+        {
+          "faturaIptalEdildiUrunlerEnvantereAlindi": "//*[text()='Fatura \u0130ptal Edildi, \u00DCr\u00FCnler envantere geri al\u0131nd\u0131']"
+        },
+        {
+          "faturaninIptalEdildigiBilgisiERPServiseGonderildi": "//*[text()='Faturan\u0131n iptal edildi\u011Fi bilgisi ERP servise g\u00F6nderildi']"
+        },
+        {
+          "faturaDetay": "//h5"
+        }
+      ]
+    }
+  ]
+}

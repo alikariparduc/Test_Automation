@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "simKartHesapCetveli",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "simKartHesapCetveliBaslik": "//div[text()='Sim Kart Hesap Cetveli']"
+        },
+        {
+          "tarihAlanlari": "//input[@class='MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd muiltr-nk4d4i']"
+        },
+        {
+          "takvimButonlari": "//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium muiltr-u8fnkc']"
+        },
+        {
+          "durum": "//div[text()='Durum']"
+        },
+        {
+          "dosyaAdi": "//div[text()='Dosya Ad\u0131']"
+        },
+        {
+          "durumMesaji": "//div[text()='Durum Mesaj\u0131']"
+        },
+        {
+          "yuklemeTarihi": "//div[text()='Y\u00FCkleme Tarihi']"
+        },
+        {
+          "baslangicTarihi": "//div[text()='Ba\u015Flang\u0131\u00E7 Tarihi']"
+        },
+        {
+          "bitisTarihi": "//div[text()='Biti\u015F Tarihi']"
+        },
+        {
+          "eylemler": "//div[text()='Eylemler']"
+        },
+        {
+          "laptopIcon": "//span[text()='laptop']"
+        },
+        {
+          "laptopIconIcindekiLaptonIcon": "//span[text()='computer']"
+        },
+        {
+          "yuklenmisDosyalar": "//button[@class='MuiButton-root MuiButton-contained MuiButton-containedSuccess MuiButton-sizeLarge MuiButton-containedSizeLarge MuiButtonBase-root muiltr-15xyc53']"
+        },
+        {
+          "sayfaIciBosBirYer": "//div[@data-test='sentinelStart']"
+        },
+        {
+          "dosyaIciAyrintiliAciklama": "//p[text()='Ayr\u0131nt\u0131l\u0131 A\u00E7\u0131klama']"
+        },
+        {
+          "dosyaIciDurum": "//p[text()='Durum']"
+        },
+        {
+          "dosyaIciTarih": "//p[text()='Tarih']"
+        },
+        {
+          "kartTipi": "//div[text()='Kart Tipi']"
+        },
+        {
+          "odemeSekli": "//div[text()='\u00D6deme \u015Eekli']"
+        },
+        {
+          "urunKodu": "//div[text()='\u00DCr\u00FCn Kodu']"
+        },
+        {
+          "sorunTuru": "//div[text()='Sorun T\u00FCr\u00FC']"
+        },
+        {
+          "eSim": "//div[text()='e-Sim']"
+        },
+        {
+          "fiyat": "//div[text()='Fiyat']"
+        },
+        {
+          "geriButonu": "//span[text()='arrow_left']"
+        }
+      ]
+    }
+  ]
+}

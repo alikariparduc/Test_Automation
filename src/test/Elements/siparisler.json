@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "Siparisler",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "siparisler button": "//span[text()='Sipari\u015Fler']"
+        }
+        ,
+        {
+          "teslimatSiparisleriBTN": "//span[text()='Teslimat Sipari\u015Fleri']"
+        }
+         ,
+        {
+          "teslimatSiparisleriEkraniBasligi": "//div[text()='Teslimat Sipari\u015Fleri Listesi']"
+        }
+        ,
+        {
+          "teslimatSiparisleriIrsaliyeNumarasi": "//div[text()='\u0130rsaliye Numaras\u0131']"
+        },
+        {
+          "teslimatSiparisleriIrsaliyeNoArama": "//span[text()='\u0130rsaliye No']"
+        },
+
+        {
+          "teslimatSiparisleriFaturaNumarasi": "//div[text()='Fatura Numaras\u0131']"
+        }
+        ,
+        {
+          "teslimatSiparisleriVersiyon": "//div[text()='Versiyon']"
+        }
+        ,
+        {
+          "teslimatSiparisleriTedarilci": "//div[text()='Tedarik\u00E7i']"
+        }
+        ,
+        {
+          "teslimatSiparisleriSiparisDurumu": "//span[text()='Sipari\u015F Durumu']"
+        }
+        ,
+        {
+          "teslimatSiparisleriIslemYapanPersonel": "//div[text()='\u0130\u015Flem Yapan Personel']"
+        }
+        ,
+        {
+          "teslimatSiparisleriAra": "//button[text()='ARA']"
+        }
+      ,
+        {
+          "teslimatSiparisleriIrsaliyeArama": "//*[@id=\"dispatch-no-text\"]"
+        },
+        {
+          "teslimatSiparisleriOnayBeklyr": "//*[text()='Onay Bekliyor']"
+        },
+        {
+          "teslimatSiparisleriOnaylandi": "//*[text()='Onayland\u0131']"
+        },
+        {
+          "teslimatSiparisleriIptalEdildi": "//*[text()='\u0130ptal Edildi']"
+        },
+        {
+          "teslimatSiparisleriStokHatasiVar": "//*[text()='Stok Hatas\u0131 Var']"
+        },
+        {
+          "teslimatSiparisleriIncele": "//button[text()='\u0130NCELE']"
+        },
+        {
+          "teslimatSiparisleriOnayla": "//button[text()='ONAYLA']"
+        },
+        {
+          "teslimatSiparisleriEvet": "//button[text()='Evet']"
+        },
+        {
+          "teslimatSiparisleriCik": "//button[text()='\u00C7IK']"
+        },
+        {
+          "imeilerKullanilmisVeyaStoklardaUyarisi": "//*[contains(text(), 'Bu imei(ler) daha \u00F6nce kullan\u0131lm\u0131\u015F veya \u015Fu an stoklarda kullan\u0131lmay\u0131 bekliyor')]"
+        },
+        {
+          "tedarikciNotuAlani": "//p[text()='Tedarik\u00E7i Notu Alan\u0131 Test']"
+        },
+        {
+          "lutfenAciklamaAlaniniDoldurun": "//*[text()='L\u00FCtfen a\u00E7\u0131klama alan\u0131n\u0131 doldurun.']"
+        },
+        {
+          "lutfenBirSiparisSorunuSeciniz": "//*[text()='L\u00FCtfen bir sipari\u015F sorunu se\u00E7iniz.']"
+        },
+        {
+          "aciklamaAlani": "//p[text()='A\u00E7\u0131klama alan\u0131 test']"
+        },
+        {
+          "aciklamaAlaniSiparisIptal": "//p[text()='Sipari\u015F iptal test']"
+        },
+        {
+          "aciklamaInputAlani": "//textarea[@id='outlined-multiline-static']"
+        },
+        {
+          "sorunBildirBtn": "//button[text()='SORUN B\u0130LD\u0130R']"
+        },
+        {
+          "sorunSecimi": "//div[@class='MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input muiltr-125plue']"
+        },
+        {
+          "digerNedenler": "//li[text() = 'Di\u011Fer Nedenler']"
+        },
+        {
+          "onaylayanPersonelAuto": "//div[text() = 'AUTO']"
+        },
+        {
+          "ikinciSiparisVersiyonNo": "//div[text()='10']"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "stokKartEkle",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "stokKart": "//span[text()='Stok Kart']"
+        },
+        {
+          "StokKartEkleBaslik": "//h5[text()='Stok Kart Ekle']"
+        },
+        {
+          "geriButonu": "//button[text()='Geri']"
+        },
+        {
+          "segmentSecimi": "//div[@aria-labelledby='slSegment']"
+        },
+        {
+          "kategoriSecimi": "//div[@aria-labelledby='slCategory']"
+        },
+        {
+          "markaSecimi": "//div[@aria-labelledby='slBrand']"
+        },
+        {
+          "modelSecimi": "//div[@aria-labelledby='slModel']"
+        },
+        {
+          "vergiTipiSecimi": "//div[@aria-labelledby='slTax']"
+        },
+        {
+          "birimTipiSecimi": "//div[@aria-labelledby='slUnit']"
+        },
+        {
+          "varyantTipiSecimi": "//div[@aria-labelledby='slVariantType']"
+        },
+        {
+          "varyantSecimi": "//div[@aria-labelledby='slVariant']"
+        },
+        {
+          "varyantEkleButon": "//button[text()='Varyant Ekle']"
+        },
+        {
+          "takipliUrunEvetRadioButton": "(//input[@name='rdIsTrackable'])[1]"
+        },
+        {
+          "barkodInputAlani": "//input[@id='txtBarkod']"
+        },
+        {
+          "SKUInputAlani": "//input[@id='txtSku']"
+        },
+        {
+          "ekleButon": "//button[text()='Ekle']"
+        },
+        {
+          "addButon": "//button[text()='ADD']"
+        },
+        {
+          "barkodVarUyarisi": "//p[contains(text(), 'Bu barkoda sahip bir \u00FCr\u00FCn zaten var')]"
+        },
+        {
+          "stokKoduVarUyarisi": "//p[contains(text(), 'Bu stok koduna sahip bir \u00FCr\u00FCn zaten var')]"
+        },
+        {
+          "closeBtn": "//span[text()='close']"
+        },
+        {
+          "yeniNesil": "//li[text()='Yeni Nesil']"
+        },
+        {
+          "PHONE": "//li[text()='PHONE']"
+        },
+        {
+          "Apple": "//li[text()='Apple']"
+        },
+        {
+          "iPhone13Mini": "//li[text()='iPhone 13 Mini']"
+        },
+        {
+          "KDV": "//li[text()='KDV']"
+        },
+        {
+          "Adet": "//li[text()='Adet']"
+        },
+        {
+          "HAFIZA": "//li[text()='HAFIZA']"
+        },
+        {
+          "128GB": "//li[text()='128GB']"
+        },
+        {
+          "tabletNotebook": "//li[text()='Tablet&Notebook']"
+        },
+        {
+          "TABLET": "//li[text()='TABLET']"
+        },
+        {
+          "Lenovo": "//li[text()='Lenovo']"
+        },
+        {
+          "Clara": "//li[text()='Clara']"
+        },
+        {
+          "BATARYA": "//li[text()='BATARYA']"
+        },
+        {
+          "4500mAh": "//li[text()='4500 mAh']"
+        },
+        {
+          "varyantSilButonu": "//button[@class='MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root muiltr-n5ghyx']"
+        },
+        {
+          "guncelleButon": "//button[text()='G\u00FCncelle']"
+        },
+        {
+          "tamamButonu": "//button[text()='Tamam']"
+        },
+        {
+          "tedarikciSecme": "//div[@aria-labelledby='slSuppliers']"
+        },
+        {
+          "brightStar": "//li[text()='BrightStar']"
+        },
+        {
+          "stokKartEkleEkraniButonlari": "//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeSmall muiltr-qprz9a']"
+        },
+        {
+          "yeniSegmentInputAlani": "//input[@id='txtNewCategory']"
+        },
+        {
+          "yeniKategoriInputAlani": "//input[@id='txtNewCategory']"
+        },
+        {
+          "yeniMarkaInputAlani": "//input[@id='txtNewBrand']"
+        },
+        {
+          "yeniModelInputAlani": "//input[@id='txtNewCategory']"
+        },
+        {
+          "yeniVaryantTipiInputAlani": "//input[@id='txtNewCategory']"
+        },
+        {
+          "yeniVaryantInputAlani": "//input[@id='txtNewCategory']"
+        },
+        {
+          "yeniVergiTipiIsimInputAlani": "//input[@name='name']"
+        },
+        {
+          "testSegment": "//li[text()='testSegment']"
+        },
+        {
+          "testKategori": "//li[text()='testKategori']"
+        },
+        {
+          "testMarka": "//li[text()='testMarka']"
+        },
+        {
+          "testModel": "//li[text()='testModel']"
+        },
+        {
+          "testVaryantTipi": "//li[text()='testVaryantTipi']"
+        },
+        {
+          "testVaryant": "//li[text()='testVaryant']"
+        },
+        {
+          "segmentZatenVarUyari": "//p[contains(text(),'Bu isme sahip bir segment zaten var')]"
+        },
+        {
+          "kategoriZatenVarUyari": "//p[contains(text(),'Bu koda sahip bir kategori zaten var')]"
+        },
+        {
+          "markaZatenVarUyari": "//p[contains(text(),'Bu koda sahip bir marka zaten var')]"
+        },
+        {
+          "modelZatenVarUyari": "//p[contains(text(),'Bu koda sahip bir model zaten var')]"
+        },
+        {
+          "varyantTipiZatenVarUyari": "//p[contains(text(),'Bu isme sahip bir varyant tipi zaten var')]"
+        },
+        {
+          "varyantZatenVarUyari": "//p[contains(text(),'Bu isme sahip bir varyant zaten var')]"
+        }
+      ]
+    }
+  ]
+}

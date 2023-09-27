@@ -1,0 +1,295 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "satis",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "satis": "//span[text()='Sat\u0131\u015F']"
+        },
+
+        {
+          "iadeOlustur" : "//h5[text()='\u0130ade Olu\u015Ftur']"
+        },
+        {
+          "iadeyiTamamlaButon": "//button[text()='\u0130adeyi Tamamla']"
+        },
+        {
+          "iadeEkleButon": "//button[text()='Ekle']"
+        },
+        {
+        "iadeImeiAra":"//input[@id='standard-full-width']"
+        },
+
+        {
+        "iadeSku":"//th[@data-rbd-draggable-id='sku']"
+        },
+        {
+          "iadeUrunKodu":"//th[@data-rbd-draggable-id='barcode']"
+        },
+        {
+          "iadeUrunAdi":"//th[@data-rbd-draggable-id='name']"
+        },
+        {
+          "iadeImei":"//th[@data-rbd-draggable-id='imei']"
+        },
+        {
+          "iadeAdet":"//th[@data-rbd-draggable-id='requiredQuantity']"
+        },
+        {
+          "iadeSatisFiyat":"//th[@data-rbd-draggable-id='unitPrice']"
+        },
+        {
+          "iadeVergi":"//th[@data-rbd-draggable-id='unitTaxRatio']"
+        },
+        {
+          "iadeVergiTipi":"//th[@data-rbd-draggable-id='unitTaxType']"
+        },
+        {
+          "iadeIndirimTutari":"//th[@data-rbd-draggable-id='\u0130ndirim Tutar\u0131']"
+        },
+        {
+          "iadeTipi":"//th[@data-rbd-draggable-id='offerTypeDescription']"
+        },
+        {
+          "iadeMusteriBilgileri":"//div[text()='M\u00FC\u015Fteri Bilgileri']"
+        },
+        {
+          "iadeToplamTutar":"//h6[text()='Toplam Tutar']"
+        },
+        {
+          "iadeToplamTutarTl":"//h6[@class='MuiTypography-root MuiTypography-h6 MuiTypography-alignRight muiltr-17a3nng']"
+        },
+        {
+          "iadeNot":"//div[text()='Not']"
+        },
+        {
+          "iadeMusteriBilgileri":"//button[text()='A\u00E7\u0131klama Ekle']"
+        },
+
+
+        {
+          "satislistesi": "//span[text()='Sat\u0131\u015F Listesi']"
+        },
+        {
+          "satislistesiEkraniBasligi": "//div[text()='Sat\u0131\u015F Listesi']"
+        },
+        {
+          "satislistesiEkraniAramaAlani": "//input[@name='searchValue']"
+        },
+        {
+          "satislistesiEkraniBelgeTipi": "//div[text()='Belge Tipi']"
+        },
+        {
+          "satislistesiEkraniERPdurumu": "//div[text()='ERP Durumu']"
+        },
+        {
+          "satisOlustur": "//span[text()='Sat\u0131\u015F Olu\u015Ftur']"
+        },
+        {
+          "satisOlusturBaslik" : "//h5[text()='Sat\u0131\u015F Olu\u015Ftur']"
+        },
+        {
+          "satisOlusturIslemiYapanPersonel" : "//label[text()='\u0130\u015Flemi Yapan Personel *']"
+        },
+        {
+          "faturaliSatis": "//span[text()='Fatural\u0131 Sat\u0131\u015F']"
+        },
+        {
+          "faturaIade": "//span[text()='Fatura \u0130ade']"
+        },
+
+        {
+          "faturaliSatisSKU": "//div[text()='SKU']"
+        },
+        {
+          "faturaliSatisIMEI": "//div[text()='IMEI']"
+        },
+        {
+          "faturaliSatisBirimFiyati": "//div[text()='Birim Fiyat\u0131']"
+        },
+        {
+          "faturaliSatisEkraniBasligi": "//h5[text()='Fatural\u0131 Sat\u0131\u015F']"
+        },
+        {
+          "faturaliSatisArama": "//input[@id='standard-full-width']"
+        },
+        {
+          "faturaliSatisEkle": "//button[contains(text(), 'Ekle')]"
+        },
+        {
+          "faturaliSatisKalanTutar": "//h6[text()='Kalan Tutar']"
+        },
+        {
+          "HuaweiP30": "//div[text()='Huawei P30 Pro \u0130kinci El']"
+        },
+        {
+          "HuaweiP30IMEI": "//div[text()='359201200883391']"
+        },
+        {
+          "birimFiyat": "//input[@class='MuiOutlinedInput-input MuiInputBase-input muiltr-1od4la4' and @type='number' and not(@name='requiredQuantity')]"
+        },
+        {
+          "faturaliSatisNakitButon": "//button[contains(text(), 'Nakit')]"
+        },
+        {
+          "Nakitgirisinput": "//input[@name='cost']"
+        },
+        {
+          "NakitEkle": "//input[@name='cost']"
+        },
+        {
+          "faturaliSatisSatisTamamla": "//button[contains(text(), 'Sat\u0131\u015F\u0131 Tamamla')]"
+        },
+        {
+          "NakitgirisTutar": "//button[@class=\"MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root px-12 muiltr-lndtow\"]"
+        },
+        {
+          "eksiktutar": "//p[text()='Kalan tutar 0 dan b\u00FCy\u00FCk olamaz.']"
+        },
+        {
+          "eksikAlanKntrol": "//p[text()='L\u00FCtfen gerekli alanlar\u0131 kontrol ediniz.']"
+        },
+        {
+          "eksikAlanKntrolclose": "//span[text()='close']"
+        },
+        {
+          "faturaliSatisBireysel": "//div[text()='Bireysel']"
+        },
+        {
+          "faturaliSatisSahis": "//li[text()='\u015Eah\u0131s \u015Eirketi']"
+        },
+        {
+          "faturaliSatisKurumsalSirket": "//li[text()='Kurumsal \u015Eirket']"
+        },
+        {
+          "faturaliSatistckn": "//input[@name='tckn']"
+        },
+        {
+          "faturaliSatisUnvan": "//input[@name='title']"
+        },
+        {
+          "faturaliSatisVD": "//input[@name='taxOffice']"
+        },
+        {
+          "faturaliSatisVKN": "//input[@name='vkn']"
+        },
+        {
+          "faturaliSatisFirstName": "//input[@name='firstName']"
+        },
+        {
+          "faturaliSatisLastName": "//input[@name='lastName']"
+        },
+        {
+          "faturaliSatisVergiD": "//input[@name='taxOffice']"
+        },
+        {
+          "faturaliSatisGSM": "//input[@name='msisdn']"
+        },
+        {
+          "faturaliSatisEMail": "//input[@name='email']"
+        },
+        {
+          "faturaliSatisStreet": "//input[@name='street']"
+        },
+        {
+          "faturaliSatisCitydown": "//div[@id='mui-component-select-city']"
+        },
+        {
+          "Citydown1": "//li[@data-value='1']"
+        },
+        {
+          "satisOlusturCity": "//input[@name='city']"
+        },
+        {
+          "district": "//div[@id='mui-component-select-district']"
+        },
+        {
+          "faturaliSatisOnayTamambtn": "//button[text()='Tamam']"
+        },
+        {
+          "SatisbasariliTamamBtn": "//button[text()='Tamam']"
+        },
+        {
+          "faturaIadeOnayTamamBtn": "//button[text()='Tamam']"
+        },
+        {
+          "Tamambtn": "//button[text()='Tamam']"
+        },
+        {
+          "kampanyaliSatis": "//span[text()='Kampanyal\u0131 Sat\u0131\u015F']"
+        },
+        {
+          "kampanyaliSatisEkraniBasligi": "//div[text()='Kampanyal\u0131 Sat\u0131\u015F']"
+        },
+        {
+          "kampanyaliSatisAramaAlani": "//input[@id='standard-full-width']"
+        },
+        {
+          "kampanyaliSatisFaturaOlustur": "//button[text()='Fatura Olu\u015Ftur']"
+        },
+        {
+          "kampanyaliSatisCity": "//li[@data-value='9']"
+        },
+        {
+          "kampanyaliSatisDistrict": "//li[@data-value='124']"
+        },
+        {
+          "kampanyaliSatisARA": "//button[text()='ARA']"
+        },
+
+        {
+          "fisliSatis": "//span[text()='Fi\u015Fli Sat\u0131\u015F']"
+        },
+        {
+          "fisliSatisEkraniBasligi": "//h5[text()='Fi\u015Fli Sat\u0131\u015F']"
+        },
+        {
+          "fisliSatisSatisTamamla": "//button[contains(text(), 'Sat\u0131\u015F\u0131 Tamamla')]"
+        },
+        {
+          "fisliSatisSKU": "//div[text()='SKU']"
+        },
+        {
+          "fisliSatisIMEI": "//div[text()='IMEI']"
+        },
+        {
+          "fisliSatisArama": "//input[@id='standard-full-width']"
+        },
+        {
+          "fisliSatisEkle": "//button[contains(text(), 'Ekle')]"
+        },
+        {
+          "fisliSatisKalanTutar": "//h6[text()='Kalan Tutar']"
+        },
+        {
+          "fisliSatisNakitButon": "//button[contains(text(), 'Nakit')]"
+        },
+        {
+          "fisliSatistckn": "//input[@name='tckn']"
+        },
+        {
+          "satisOlusturSatisiTamamla" : "//*[text() = 'Vadeli Fatura Olu\u015Ftur / Sat\u0131\u015F\u0131 Tamamla']"
+        },
+        {
+          "satisOlusturSilverBayiSecimi": "//*[@id='combo-box-silver-store-list']"
+        },
+        {
+          "faturaIadeSilver": "//span[text()='Fatura \u0130ade']"
+        },
+        {
+          "faturaIadeEkleBtn": "//button[text()='Ekle']"
+        },
+        {
+          "faturaIadeyiTamamlaBtn" : "//button[text()='\u0130adeyi Tamamla']"
+        },
+        {
+          "urunSepetAdeti": "//input[@name='requiredQuantity']"
+        }
+      ]
+    }
+  ]
+}

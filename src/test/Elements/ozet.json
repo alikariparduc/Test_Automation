@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "Ozet",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "ozet button": "//span[contains(text(), '\u00D6zet')]"
+        },
+        {
+          "ozetEkraniBasligi": "//p[contains(text(), 'Y\u0131la G\u00F6re Ayl\u0131k Sat\u0131\u015F ve Transfer Da\u011F\u0131l\u0131m\u0131')]"
+        },
+        {
+          "SilverozetEkraniBasligi": "//p[contains(text(), 'Y\u0131la G\u00F6re Ayl\u0131k Sat\u0131\u015F')]"
+        },
+
+        {
+          "ozetEkraniBuHafta": "//div[contains(text(), 'Bu Hafta')]"
+        }
+         ,
+        {
+          "ozetEkraniSatislarim": "//p[@data-testid='dlyTitle-sales']"
+        }
+      ,
+        {
+          "ozetEkraniTransferlerim": "//p[@data-testid='dlyTotal-transfer']"
+        }
+      ,
+        {
+          "ozetEkraniUrunlerim": "//p[@data-testid='dlyTotal-inventory']"
+        }
+      ,
+        {
+          "ozetEkraniOnayBekleyenTransferler": "//p[@data-testid='testid-transfer']"
+        },
+        {
+          "ozetEkraniOnayBekleyenSiparisler": "//p[@data-testid='testid-delivery']"
+        },
+        {
+          "ozetEkraniToplamUrunAdedi": "//p[@data-testid='testid-product']"
+        },
+        {
+          "onayimiBekleyenTransferlerLink": "//a[@href='/transfer-list?ref=dashboard']"
+        },
+        {
+          "bakiyeMiktari": "//*[@data-testid='txtBalanceInquiryValue']"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "variables",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "Stok2.0 UI url": "http://front-ui-rsmnsadsat.apps.mbt.vodafone.local/login"
+        },
+        {
+          "test IMEI no": "359201200883289"
+        },
+        {
+          "jobs pending on my list button": "//a[contains(@data-href,'/orion/workflow/js/define_waiting_list.js')]"
+        },
+        {
+          "pending jobs button": "//a[contains(@data-href,'/orion/workflow/js/define_waitingall_list.js')]"
+        },
+        {
+          "operation type selection": "//select[@orionid='islem_turu']"
+        },
+        {
+          "transaction note text area": "//input[@orionid='islem_notu']"
+        },
+        {
+          "customer information area": "//li[@data-title='Müşteri Bilgileri']"
+        },
+        {
+          "continue button": "//button[@orionid='btnContinue']"
+        }
+      ]
+    }
+  ]
+}

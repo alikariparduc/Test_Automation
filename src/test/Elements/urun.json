@@ -1,0 +1,262 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "urun",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "urun button": "//span[text()='\u00DCr\u00FCn']"
+        },
+        {
+          "urunlerim button": "//span[text()='\u00DCr\u00FCnlerim']"
+        },
+        {
+          "urunlerimEkraniBasligi": "//div[text()='\u00DCr\u00FCnlerim']"
+        },
+        {
+          "urunlerimBayiSorgulaBtn": "//button[contains(text(),'Bayi Sorgula')]"
+        },
+        {
+          "urunlerimSepetimBtn": "//button[contains(text(),'Sepetim')]"
+        },
+        {
+          "urunlerimEkraniBayiFiyati": "//div[contains(text(), 'Bayi Fiyat\u0131')]"
+        },
+        {
+          "urunlerimEkraniSKU": "//div[contains(text(), 'SKU')]"
+        },
+        {
+          "urunlerimEkraniBarkod": "//div[contains(text(), 'Barkod')]"
+        },
+        {
+          "urunlerimSepeteEkleBtn": "//button[contains(text(),'Sepete Ekle')]"
+        },
+        {
+          "urunlerimUrunEkleBtn": "//button[contains(text(),'\u00DCr\u00FCn Ekle')]"
+        },
+        {
+          "urunlerimUrunuSilBtn": "//button[contains(text(),'\u00DCr\u00FCn\u00FC Sil')]"
+        },
+        {
+          "urunEkranBarkodEkle": "//input[contains(@name,'quantity')]"
+        },
+        {
+          "urun arama": "//label[text()='\u00DCr\u00FCn Ad\u0131, Barkod veya IMEI numaras\u0131 giriniz.']//following-sibling::div/input"
+        },
+        {
+          "serch3": "//ul[@role='listbox']/li[3]"
+        },
+        {
+          "serch1": "//ul[@role='listbox']/li[1]"
+        },
+        {
+          "serch2": "//ul[@role='listbox']/li[2]"
+        },
+        {
+          "serch3": "//ul[@role='listbox']/li[3]"
+        },
+        {
+          "serchtamam": "//button[contains(text(), 'Tamam')]"
+        },
+        {
+          "Urunsil": "//button[contains(text(), '\u00DCr\u00FCn\u00FC Sil')]"
+        },
+        {
+          "input imei": "//input[contains(@data-testid,'imeis.0.value')]"
+        },
+        {
+          "input imei1": "//input[contains(@data-testid,'imeis.1.value')]"
+        },
+        {
+          "input imei2": "//input[contains(@data-testid,'imeis.2.value')]"
+        },
+        {
+          "Ekle": "//button[text()='Ekle']"
+        },
+        {
+          "Toplamadet0": "//div[text()='0'][1]"
+        },
+        {
+          "Toplamadet1": "//div[text()='1'][1]"
+        },
+        {
+          "Toplamadet2": "//div[text()='2'][1]"
+        },
+        {
+          "Toplamadet3": "//div[text()='3'][1]"
+        },
+        {
+          "Toplamadet4": "//div[text()='4'][1]"
+        },
+        {
+          "artiEkle": "//button[text()='IMEI Ekle']"
+        },
+        {
+          "ImeiSec": "//em[text()='Se\u00E7iniz']"
+        },
+        {
+          "urunEkle": "//button[contains(text(), '\u00DCr\u00FCn Ekle')]"
+        },
+        {
+          "urunFiyatIndirim": "//button[contains(text(), 'Fiyat ve \u0130ndirim')]"
+        },
+        {
+          "urunYeniFiyatEkleAlani": "//input[@id='txtNewStorePrice']"
+        },
+        {
+          "Apple11": "//div[text()='Apple iPhone 11 Demo']"
+        },
+        {
+          "TestItem": "//div[text()='Huawei P30 Pro \u0130kinci El']"
+        },
+        {
+          "TestItem2": "//div[text()='Samsung Galaxy J4+ Demo']"
+        },
+        {
+          "TestItem3": "//div[text()='OPPO RX17 Pro 128GB Ye\u015Fil']"
+        },
+        {
+          "TestItem4": "//div[text()='iXtech IX701 16GB Siyah']"
+        },
+        {
+          "111201360883296": "//li[text()='111201360883296']"
+        },
+        {
+          "111201360883297": "//li[text()='111201360883297']"
+        },
+        {
+          "111201360883298": "//li[text()='111201360883298']"
+        },
+        {
+          "666201260111111": "//li[text()='666201260111111']"
+        },
+        {
+          "666201260111112": "//li[text()='666201260111112']"
+        },
+        {
+          "666201260111113": "//li[text()='666201260111113']"
+        },
+        {
+          "777201260883296": "//li[text()='777201260883296']"
+        },
+        {
+          "777201260883297": "//li[text()='777201260883297']"
+        },
+        {
+          "777201260883298": "//li[text()='777201260883298']"
+        },
+        {
+          "toplamAdet": "//td//div[@class='flex']"
+        },
+        {
+          "359201200883286": "//li[text()='359201200883286']"
+        },
+        {
+          "8801643510619D": "//div[text()='8801643510619D']"
+        },
+        {
+          "6944284633926": "//div[text()='6944284633926']"
+        },
+        {
+          "6971202177101": "//div[text()='6971202177101']"
+        },
+        {
+          "694428463392615": "//div[text()='694428463392615']"
+        },
+        {
+          "SA00658D": "//div[text()='SA00658D']"
+        },
+        {
+          "OPP0001": "//div[text()='OPP0001']"
+        },
+        {
+          "IXT0001": "//div[text()='IXT0001']"
+        },
+        {
+          "Imesil": "//button[text()='Sil']"
+        },
+        {
+          "barcodeSil": "//button[text()='Sil']"
+        },
+        {
+          "silbasarili": "//p[text()='\u0130\u015Flem Ba\u015Far\u0131l\u0131']"
+        },
+        {
+          "user menu": "//*[@type='button']//*[text()='account_circle']"
+        },
+        {
+          "Logout": "//span[contains(text(),'\u00C7\u0131k\u0131\u015F')]"
+        },
+        {
+          "urun Stokda Yok Eski": "//p[text()='\u00DCr\u00FCn arama kriterlerine g\u00F6re bulunamad\u0131 veya stokta yok. (Arama kriteri: IMEI)']"
+        },
+        {
+          "urun Stokda Yok": "//p[contains(text(), '\u00DCr\u00FCn stokta yok.')]"
+        },
+        {
+          "urunStokdaYokSatildi": "//p[contains(text(), 'kodlu ma\u011Fazan\u0131n stoklar\u0131nda kay\u0131tl\u0131d\u0131r.')]"
+        },
+        {
+          "urun Stokda Yok Close": "//span[text()='close']"
+        },
+        {
+          "TavsiyeSatisfiyti400": "//div[text()='400']"
+        },
+        {
+          "HuaweiP30": "//div[text()='Huawei P30 Pro \u0130kinci El']"
+        },
+        {
+          "S371200": "//button[text()='S371200']"
+        },
+        {
+          "UrunlerimTest": "//p[@data-testid='dlyTotal-inventory']"
+        },
+        {
+          "Stock2_0_xlsx": "//div[text()='Do\u011Frulama Ba\u015Farıyla Ger\u00E7ekle\u015Fti']"
+        },
+        {
+          "basariliYukleme": "//p[text()='Dosya(lar) ba\u015Far\u0131 ile y\u00FCklendi.']"
+        },
+        {
+          "basariliYuklemeClose": "//span[text()='close']"
+        },
+        {
+          "uploadSonrasoGriEkran": "//div[@role ='presentation']"
+        },
+        {
+          "EximUrun": "102121212121000"
+        },
+        {
+          "hamburger close": "//*[@id=\"fuse-toolbar\"]/div/div[1]/div/button"
+        },
+        {
+          "urunlerimAsagiOk": "//*[@data-testid='KeyboardArrowDownIcon']"
+        },
+        {
+          "202121212121009": "//li[@data-value='202121212121009']"
+        },
+        {
+          "302121212121009": "//li[@data-value='302121212121009']"
+        },
+        {
+          "702121212121009": "//li[@data-value='702121212121009']"
+        },
+        {
+          "122333444455555": "//li[@data-value='122333444455555']"
+        },
+        {
+          "appleIPhone13Mini128GB": "//div[text()='Apple iPhone 13 Mini 128GB']"
+        },
+        {
+          "eklenecekUrunAdedi": "//input[@name='quantity']"
+        },
+        {
+          "urunMiktarlariDegisti": "//*[contains(text(),'miktarlar\u0131 de\u011Fi\u015Fti')]"
+        }
+      ]
+    }
+  ]
+}

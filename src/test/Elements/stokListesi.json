@@ -1,0 +1,118 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "stokListesi",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "stokListesiBaslik": "//h5[text()='Stok Listesi']"
+        },
+        {
+          "urunEkle": "//button[contains(text(), '\u00DCr\u00FCn Ekle')]"
+        },
+        {
+          "asagiOkIsimVeyaBarkod" : "//span[text()='arrow_drop_down']"
+        },
+        {
+          "isimIleArama": "//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary muiltr-uym7pf' and text()='\u0130sim ile arama']"
+        },
+        {
+          "barkodIleArama": "//span[@class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary muiltr-uym7pf' and text()='Barkod ile arama']"
+        },
+        {
+          "urunAramaInputAlani": "//input[@type='text']"
+        },
+        {
+          "aramaSonucuIlkUrun": "//ul[@role='listbox']/li[1]"
+        },
+        {
+          "SKU": "//div[text()='SKU']"
+        },
+        {
+          "kategori": "//div[text()='Kategori']"
+        },
+        {
+          "urunAdi": "//div[text()='\u00DCr\u00FCn Ad\u0131']"
+        },
+        {
+          "segment": "//div[text()='Segment']"
+        },
+        {
+          "barkod": "//div[text()='Barkod']"
+        },
+        {
+          "takipli": "//div[text()='Takipli']"
+        },
+        {
+          "PHONE": "//div[text()='PHONE']"
+        },
+        {
+          "appleIPhone13Mini128GB": "//div[text()='Apple iPhone 13 Mini 128GB']"
+        },
+        {
+          "yeniNesil": "//div[text()='Yeni Nesil']"
+        },
+        {
+          "TABLET": "//div[text()='TABLET']"
+        },
+        {
+          "lenovoClara4500mAh": "//div[text()='Lenovo Clara 4500 mAh']"
+        },
+        {
+          "tabletNotebook": "//div[text()='Tablet&Notebook']"
+        },
+        {
+          "kalemButonlari": "//span[text()='edit']"
+        },
+        {
+          "apple": "//div[text()='Apple']"
+        },
+        {
+          "iphone13Mini": "//div[text()='iPhone 13 Mini']"
+        },
+        {
+          "KDV": "//div[text()='KDV']"
+        },
+        {
+          "adet": "//div[text()='Adet']"
+        },
+        {
+          "hafiza128GB": "//span[text()='HAFIZA 128GB']"
+        },
+        {
+          "appleIPhone13Mini128GB_2": "//input[@value='Apple iPhone 13 Mini 128GB']"
+        },
+        {
+          "takipliUrunEvet": "//input[@name='rdIsTrackable' and @value='true' and @checked]"
+        },
+        {
+          "sayfaBasiSatirSayisi": "//div[@class='MuiTablePagination-select MuiSelect-select MuiSelect-standard MuiInputBase-input muiltr-ejwo2o']"
+        },
+        {
+          "25sayfaBasiSatirSayisi": "//li[@data-value='25']"
+        },
+        {
+          "50sayfaBasiSatirSayisi": "//li[@data-value='50']"
+        },
+        {
+          "100sayfaBasiSatirSayisi": "//li[@data-value='100']"
+        },
+        {
+          "copKutusuIconlari": "//span[text()='delete']"
+        },
+        {
+          "tamamButonu": "//button[text()='Tamam']"
+        },
+        {
+          "urunBulunamadi": "//*[text()='\u00DCr\u00FCn bulunamad\u0131']"
+        },
+        {
+          "kalemIconlari": "//span[text()='edit']"
+        }
+      ]
+    }
+  ]
+}

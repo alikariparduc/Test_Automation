@@ -1,0 +1,6 @@
+/target/
+/Reports/
+/allure-report/data/attachments/
+/allure-results/
+.idea/**/workspace.xml
+/.idea/

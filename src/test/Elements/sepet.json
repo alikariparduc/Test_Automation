@@ -1,0 +1,183 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "sepet",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "sepete ekle button": "//button[contains(text(), 'Sepete Ekle') and not(@data-testid)]"
+        },
+        {
+          "barkod okuyucu ile sepete ekle button": "//button[contains(text(), 'Sepete Ekle') and @data-testid = 'btnChip']"
+        },
+        {
+          "urunlerim button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[1]/div/div/div/a/div/span"
+        },
+        {
+          "ImeiSecme": "//input[contains(@id,'combo-box-imei-list')]"
+        },
+        {
+          "ImeiSecme1": "//ul[@role='listbox']/li[3]"
+        },
+        {
+          "PDFTestiIcinIMEI": "//li[text()='122333444455555']"
+        },
+        {
+          "serch1": "//ul[@role='listbox']/li[1]"
+        },
+        {
+          "serchtamam": "//button[contains(text(), 'Tamam')]"
+        },
+        {
+          "Urunsil": "//button[contains(text(), '\u00DCr\u00FCn\u00FC Sil')]"
+        },
+        {
+          "input imei": "//input[contains(@name,'imei-0')]"
+        },
+
+        {
+          "input imei1": "//input[contains(@name,'imei-1')]"
+        },
+        {
+          "input imei2": "//input[contains(@name,'imei-2')]"
+        },
+        {
+          "Ekle": "//button[text()='Ekle']"
+        },
+        {
+          "Toplamadet0": "//div[text()='0'][1]"
+        },
+
+        {
+          "Toplamadet1": "//div[text()='1'][1]"
+        },
+        {
+          "Toplamadet2": "//div[text()='2'][1]"
+        },
+        {
+          "Toplamadet3": "//div[text()='3'][1]"
+        },
+        {
+          "Toplamadet4": "//div[text()='4'][1]"
+        },
+        {
+          "artiEkle": "//span[text()='add']"
+        },
+        {
+          "ImeiSec": "//em[text()='Se\u00E7iniz']"
+        },
+        {
+          "urunEkle": "//button[contains(text(), '\u00DCr\u00FCn Ekle')]"
+        },
+        {
+          "Apple11": "//div[text()='Apple iPhone 11 Demo']"
+        },
+        {
+          "TestItem": "//div[text()='Huawei P30 Pro \u0130kinci El']"
+        },
+        {
+          "TestItem2": "//div[text()='Samsung Galaxy J4+ Demo']"
+        },
+        {
+          "359201200883286": "//li[text()='359201200883286']"
+        },
+        {
+          "359201200883091": "//li[text()='359201200883091']"
+        },
+        {
+          "eklenenUrunImei": "//li[text()='\"+imeiNumber+\"']"
+        },
+        {
+          "8801643510619D": "//div[text()='8801643510619D']"
+        },
+        {
+          "SA00658D": "//div[text()='SA00658D']"
+        },
+        {
+          "Imesil": "//button[text()='Sil']"
+        },
+        {
+          "silbasarili": "//p[text()='\u0130\u015Flem Ba\u015Far\u0131l\u0131']"
+        },
+        {
+          "usermenu": "//*[@type='button']//*[text()='account_circle']"
+        },
+        {
+          "Logout": "//span[contains(text(),'\u00C7\u0131k\u0131\u015F')]"
+        },
+        {
+          "urunstokdayok": "//p[text()='\u00DCr\u00FCn arama kriterlerine g\u00F6re bulunamad\u0131 veya stokta yok. (Arama kriteri: IMEI)']"
+        },
+        {
+          "TavsiyeSatisfiyti400": "//div[text()='400']"
+        },
+        {
+          "Sepetim": "//button[text()='Sepetim (']"
+        },
+        {
+          "dropdownIcon": "(//*[@data-testid='ArrowDropDownIcon'])[4]"
+        },
+        {
+          "silverPartnerSecim" : "//input[@id='combo-box-silver-store-list']"
+        },
+        {
+          "satisiTamamlaBtn": "//button[contains(text(),'Vadeli Fatura Olu\u015Ftur')]"
+        },
+        {
+          "satisOnayTamam": "//button[text() = 'Tamam']"
+        },
+        {
+          "silverSatisYapilacakBayi": "//li[text() = 'R001084 / \u00D6RNEK \u0130LET\u0130\u015E\u0130M - SEL\u0130M \u00D6RNEK']"
+        },
+        {
+          "imeisizSatisUyari": "//p[contains(text(), 'Vodafone Da\u011F\u0131t\u0131m Merkezi (Vdm), Dijital partnere (Silver) imeisiz \u00FCr\u00FCn sat\u0131\u015F\u0131 yapamaz')]"
+        },
+        {
+          "gerekliAlanEksikUyari": "//p[text()='L\u00FCtfen gerekli alanlar\u0131 kontrol ediniz.']"
+        },
+        {
+          "uyariKapamaCarpi": "//span[text()='close']"
+        },
+        {
+          "urunSepeteEklendi": "//p[contains(text(), '\u00DCr\u00FCn Sepete Eklendi!')]"
+        },
+        {
+          "yeterliStokYok": "//p[contains(text(), 'barkodlu \u00FCr\u00FCn\u00FCn yeterli miktarda sto\u011Fu bulunmamaktad\u0131r')]"
+        },
+        {
+          "urunSepetAdeti": "//input[@name='requiredQuantity']"
+        },
+        {
+          "sepetAdetUyari": "//p[contains(text(), 'aras\u0131nda bir de\u011Fer giriniz!')]"
+        },
+        {
+          "sepetBosUyari": "//p[contains(text(), 'Sat\u0131\u015F olu\u015Fturmak için sepete \u00FCr\u00FCn eklemeniz gerekmektedir')]"
+        },
+        {
+          "sepettenUrunuSilBtn": "//span[(text()='delete')]"
+        },
+        {
+          "sepetimBtn" : "//button[contains(text(), 'Sepetim')]"
+        },
+        {
+          "Tamam": "//button[text()='Tamam']"
+        },
+        {
+          "satisOlustur": "//span[text()='Sat\u0131\u015F Olu\u015Ftur']"
+        },
+        {
+          "satis": "//span[text()='Sat\u0131\u015F']"
+        },
+        {
+          "copKutusuIconlari": "//span[text()='delete']"
+        },
+        {
+          "tamamButonu": "//button[text()='Tamam']"
+        }
+      ]
+    }
+  ]
+}

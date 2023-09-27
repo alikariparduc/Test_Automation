@@ -1,0 +1,204 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "Transfer",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "transfer button": "//span[text()='Transfer']"
+        }
+        ,
+        {
+          "transferListesi button": "//span[text()='Transfer Listesi']"
+        }
+         ,
+        {
+          "transferListesiEkraniBasligi": "//div[text()='Transfer Listesi']"
+        }
+        ,
+        {
+          "transferListesiAramaAlani": "//input[@name='searchValue']"
+        }
+        ,
+        {
+          "transferListesiDokumanNumarasi": "//div[text()='Dok\u00FCman Numaras\u0131']"
+        }
+        ,
+        {
+          "transferListesiTransferEdenMagza": "//div[text()='Transfer Eden/G\u00F6nderen Ma\u011Faza']"
+        }
+        ,
+        {
+          "transferListesiTransferEilenEdenMagza": "//div[text()='Transfer Eden/G\u00F6nderen Ma\u011Faza']"
+        }
+        ,
+        {
+          "transferListesiTransferDurumu": "//span[text()='Transfer Durumu']"
+        }
+        ,
+        {
+          "transferListesiHataAciklamasi": "//div[text()='Hata A\u00E7\u0131klamas\u0131']"
+        }
+        ,
+        {
+          "transferOlustur button": "//span[text()='Transfer Olu\u015Ftur']"
+        },
+        {
+        "transferOlusturEkraniBasligi": "//div[text()='Transfer Olu\u015Ftur']"
+        }
+        ,
+        {
+          "transferOlusturGonder": "//button[contains(text(), 'G\u00F6nder')]"
+        }
+        ,
+        {
+          "transferOlusturEkraniBasligi": "//div[text()='Transfer Listesi']"
+        }
+        ,
+        {
+          "transferOlusturAramaAlani": "//input[@id='standard-full-width']"
+        }
+         ,
+        {
+          "transferOlusturEkle": "//button[contains(text(), 'Ekle')]"
+        },
+
+        {
+          "transferOlusturSKU": "//div[contains(text(), 'SKU')]"
+        },
+        {
+          "transferOlusturUrunKodu": "//div[contains(text(), '\u00DCr\u00FCn Kodu')]"
+        },
+        {
+          "transferOlusturUrunAdi": "//div[contains(text(), '\u00DCr\u00FCn Ad\u0131')]"
+        },
+        {
+          "transferOlusturIMEI": "//div[contains(text(), 'IMEI')]"
+        }
+        ,
+        {
+          "transferOlusturTeklifTipi": "//div[contains(text(), 'Teklif Tipi')]"
+        },
+        {
+          "transferOlusturAdet": "//div[contains(text(), 'Adet')]"
+        },
+        {
+          "transferOlusturIslemYapanPer": "//span[contains(text(), '\u0130\u015Flemi Yapan Personel *')]"
+        },
+        {
+          "transferOlusturTransferEdilenMagza": "//input[@id='combobox-to-store']"
+        },
+        {
+          "transferOlusturTransferEdilenMagza1": "//li[@id='combobox-to-store-option-0']"
+        },
+        {
+          "transferOlusturTransferEdilenMagza13": "//li[@id='combobox-to-store-option-12']"
+        },
+        {
+          "transferOlusturOperasyonBasarili": "//p[text()='Operasyon Ba\u015Far\u0131l\u0131']"
+
+        },
+        {
+          "transferOlusturBasariliClose": "//span[text()='close']"
+
+        },
+        {
+          "transferOlusturAramaBtn": "//button[@type='submit']"
+        }
+      ,
+        {
+          "transferEdilenMagzaCode": "//li[@data-value='S921020-01']"
+        },
+        {
+          "transferEdilenMagzaCodeR": "//div[text()='R901982-01']"
+        },
+
+        {
+          "transferEdenMagzaCode": "//div[text()='S921020']"
+        },
+        {
+          "transferEdenMagzaCodeR": "//div[text()='T\u00FCm\u00FC']"
+        },
+
+
+        {
+          "transferEdilenMagzaCodeu": "//div[text()='S921020-01']"
+        },
+
+        {
+          "transferEdilenMagzaCodeuR": "//li[@data-value='R901982']"
+        },
+        {
+          "transferEdenMagzaCodeu": "//li[@data-value='S921020']"
+        }
+      , {
+          "transferEdenMagzaCodeuR": "//li[@data-value='R901982-01']"
+        },
+        {
+          "transferOnayBekliyor": "//*[text()='Transfer Onaylanmay\u0131 Bekliyor']"
+        }
+      ,
+        {
+          "transferOnayBekleyenAdet": "//b[contains(text(), 'Onaylanmay\u0131 Bekliyor')]"
+        },
+        {
+          "transferEdilmeyiBekliyor Eski": "//p[contains(text(), 'transfer edilmeyi bekliyor')]"
+        },
+        {
+          "transferEdilmeyiBekliyor": "//p[contains(text(), '\u00DCr\u00FCn stokta yok.')]"
+        },
+        {
+          "transferOnaylaBtn": "//button[text()='Onayla']"
+        },
+        {
+          "transferOnaylandi": "//*[text() = 'Transfer Onayland\u0131']"
+        },
+        {
+          "transferReddedildi": "//*[text() = 'Transfer Reddedildi']"
+        },
+        {
+          "transferIptalEdildi": "//*[text() = 'Transfer \u0130ptal Edildi']"
+        },
+        {
+          "VDMtransferEdilenMagzaCode": "//li[@data-value='W075300']"
+        },
+        {
+          "VDMtransferEdenMagzaCode": "//div[text()='W000800']"
+        },
+        {
+          "VDMtransferEdenMagzaCodeSecenek": "//li[text()='W000800']"
+        },
+        {
+          "ShoptransferEdilenMagzaCode": "//li[@data-value='S921020-01']"
+        },
+        {
+          "ShoptransferEdenMagzaCode": "//div[text()='S921020']"
+        },
+        {
+          "ShoptransferEdenMagzaCodeSecenek": "//li[@data-value='S921020']"
+        },
+        {
+          "Tumu": "//div[text()='T\u00FCm\u00FC']"
+        },
+        {
+          "W075300": "//div[text()='W075300']"
+        },
+        {
+          "TumuSecenek": "//li[text()='T\u00FCm\u00FC']"
+        },
+        {
+          "transferReddetBtn": "//button[text()='Reddet']"
+        },
+        {
+          "transferIptalEtBtn": "//button[text()='\u0130ptal Et']"
+        },
+        {
+          "transferDokumanNumarasi": "(//td[@class='MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium muiltr-1t0k09a']//div)[2]"
+        }
+      ]
+    }
+  ]
+}

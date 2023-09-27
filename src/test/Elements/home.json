@@ -1,0 +1,83 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "home",
+        "parent": "login",
+        "waitelement": ""
+      },
+      "elements": [
+
+
+        {
+          "satis button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "satis listesi button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "faturali satis button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "kampanyali satis button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "siparisler button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[4]/li"
+        },
+        {
+          "transfer button": "//*[@id=\"sidebar\"]/div/div[1]/ul[2]/ul/li[3]/a"
+        },
+        {
+          "transfer listesi button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "transfe olustur button": "//*[@id=\"fuse-layout\"]/div[1]/div/div/div[2]/ul/ul[2]/li/div/span"
+        },
+        {
+          "alt bayi buton 1": "//*[@id=\"fuse-main\"]/div/div/div[2]/div/div[1]/div/div/div[2]/div/div[2]/ul/li/button"
+        },
+        {
+          "alt bayi buton 2": "//*[@id=\"fuse-main\"]/div/div/div[2]/div/div[1]/div/div/div[2]/div/div[3]/ul/li/button"
+        },
+        {
+          "Entegrator bilgi gücelleme": "//*[@id=\"sidebar\"]/div/div[1]/ul[2]/ul/li[4]/a"
+        },
+        {
+          "hamburger close": "//*[@id=\"fuse-toolbar\"]/div/div[1]/div/button"
+        },
+        {
+          "usermenu": "//*[@type='button']//*[text()='account_circle']"
+        },
+        {
+          "Logout": "//span[contains(text(),'\u00C7\u0131k\u0131\u015F')]"
+        },
+        {
+          "onayla butonu": "//button[text()='Onayla']"
+        },
+        {
+          "Pass": "Voda1234"
+        },
+        {
+          "SatislerimAdeti": "//p[@data-testid='dlyTotal-sales']"
+        },
+        {
+          "simKartHesapCetveli": "//span[text()='Sim Kart Hesap Cetveli']"
+        },
+        {
+          "stokKart": "//span[text()='Stok Kart']"
+        },
+        {
+          "bayiBakiyeAltLimitDuzenleme": "//span[text()='Bayi Bakiye Alt Limit D\u00FCzenleme']"
+        },
+        {
+          "islemBasarili": "//p[text()='İşlem Başarılı']"
+        },
+        {
+          "closeBtn": "//span[text()='close']"
+        }
+      ]
+    }
+  ]
+}
+
+

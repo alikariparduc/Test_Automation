@@ -1,0 +1,65 @@
+Feature: W_7_1_entegratorLogo
+ #W kodlu shop user ile login olur, stok 2.0 daki bütün menüleri gezer her sayfada olması
+ # gereken alanları kontol eder.
+
+
+  Background: System Login
+    Given I control logout with username: "DealerAKirklar5"
+    Given Open the url given by jenkins job
+    Then I see login page
+    Then I enter "DealerAKirklar5" text to username text area at index 1
+    Then I enter "Voda1234" text to password text area at index 1
+    And  I wait login button element 5 seconds at index 1
+    When I click element: login button at index 1
+
+
+  #@Stok
+  Scenario: W_7_1_entegratorLogo
+
+    #entegratör bilgilerini (logo-bireysel) güncelle
+    And I see entegrator page
+
+    Then I wait ent BilgiGun element 5 seconds at index 1
+    Then I click element: ent BilgiGun at index 1
+    Then I wait ent EkraniBasligi element 2 seconds at index 1
+    Then I wait ent Alandi element 2 seconds at index 1
+    Then I wait ent LOGO element 2 seconds at index 1
+
+    Then I wait ent LogoSec element 2 seconds at index 1
+    And I click element: ent LogoSec at index 1
+    Then I wait ent KulAdi element 2 seconds at index 1
+    And I enter "10409425588" text to ent KulAdi at index 1
+    Then I wait ent Sifre element 2 seconds at index 1
+    And I enter "123456" text to ent Sifre at index 1
+
+    Then I wait ent bireyselSec element 2 seconds at index 1
+    And I click element: ent bireyselSec at index 1
+    Then I wait ent TCKN element 2 seconds at index 1
+    And I enter "10409425588" text to ent TCKN at index 1
+    Then I wait ent Isim element 2 seconds at index 1
+    And I enter "otomasyonTestIsim" text to ent Isim at index 1
+    Then I wait ent SoyIsım element 2 seconds at index 1
+    And I enter "otomasyonTestSoyisim" text to ent SoyIsım at index 1
+    Then I wait ent VeriDairesi element 2 seconds at index 1
+    And I enter "otomasyonTestVergiDairesi" text to ent VeriDairesi at index 1
+    Then I wait ent Mersis element 2 seconds at index 1
+    And I enter "otomasyonTestMersis" text to ent Mersis at index 1
+    Then I wait ent SicilNo element 2 seconds at index 1
+    And I enter "otomasyonTestSicilNo" text to ent SicilNo at index 1
+
+    Then I wait ent KaydetBtn element 2 seconds at index 1
+    And I click element: KaydetBtn at index 1
+
+    #ürün ekle
+
+    #ürünü sat
+
+    #satış detaylarına girip entegratör bilgilerini kontrol et
+
+
+    #işlem bitti çıkış yap.
+    And I see urun page
+    Then I wait usermenu element 5 seconds at index 1
+    And I click element: usermenu at index 1
+    And I wait Logout element 5 seconds at index 2
+    And I click element: Logout at index 2

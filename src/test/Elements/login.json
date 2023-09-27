@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "login",
+        "parent": "common",
+        "waitelement": "username text area"
+      },
+          "elements": [
+        {
+         "username text area": "//input[@name='username']"
+        },
+        {
+         "password text area": "//input[@name='password']"
+        },
+        {
+         "login button": "//button[@aria-label='LOG IN']"
+        },
+            {
+              "tedarikciGirisi": "//a[text()='Tedarik\u00E7i Giri\u015Fi']"
+            },
+            {
+              "vodafoneRadioButton": "//input[@value='VFTR']"
+            }
+      ]
+    }
+  ]
+}

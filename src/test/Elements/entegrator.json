@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "entegrator",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "ent BilgiGun": "//span[contains(text(), 'Entegrat\u00F6r Bilgi G\u00FCncelleme')]"
+        },
+        {
+          "ent EkraniBasligi": "//div[contains(text(), 'Entegrat\u00F6r Bilgi G\u00FCncelleme')]"
+        },
+        {
+          "ent Alandi": "//h4[contains(text(), 'Kullan\u0131c\u0131 ve Fatura Bilgileri')]"
+        },
+        {
+          "ent EDM": "//span[contains(text(), 'EDM')]"
+        },
+        {
+          "ent LOGO": "//span[contains(text(), 'LOGO')]"
+        },
+        {
+          "ent KulAdi": "//input[@name='username']"
+        },
+        {
+          "ent Sifre": "//input[@name='password']"
+        },
+        {
+          "ent Email": "//span[contains(text(), 'EMAIL')]"
+        },
+        {
+          "ent TCKN": "//input[@name='tckn']"
+        },
+        {
+          "ent Isim": "//input[@name='firstName']"
+        },
+        {
+          "ent SoyIsim": "//input[@name='lastName']"
+        },
+        {
+          "ent VeriDairesi": "//input[@name='taxOffice']"
+        },
+        {
+          "ent Mersis": "//input[@name='mersisNo']"
+        },
+        {
+          "ent VkNo": "//input[@name='vkn']"
+        },
+        {
+          "ent UNVAN": "//input[@name='title']"
+        },
+        {
+          "ent SicilNo": "//input[@name='tradeRegistrationNumber']"
+        },
+        {
+          "ent KaydetBtn": "//button[contains(text(), 'Kaydet')]"
+        },
+        {
+          "ent LogoSec": "//input[@value='elogo']"
+        },
+
+        {
+          "ent EdmSec": "//input[@value='edm']"
+        },
+        {
+          "ent bireyselSec": "//input[@value='0']"
+        },
+        {
+          "ent tuzelSec": "//input[@value='1']"
+        },
+        {
+          "tamamBtn": "//button[contains(text(), 'Tamam')]"
+        },
+        {
+          "entegrator radio buttons": "//*[@class='MuiRadio-root MuiRadio-colorDefault MuiButtonBase-root MuiRadio-root MuiRadio-colorDefault PrivateSwitchBase-root muiltr-1scm2of']"
+        }
+      ]
+    }
+  ]
+}
+
+

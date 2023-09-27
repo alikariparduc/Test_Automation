@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "pageInfo": {
+        "pageName": "bayiBakiyeAltLimitDuzenleme",
+        "parent": "home",
+        "waitelement": ""
+      },
+      "elements": [
+        {
+          "bayiBakiyeAltLimitDuzenleme": "//div[text()='Bayi Bakiye Alt Limit D\u00FCzenleme']"
+        },
+        {
+          "bayi": "//div[text()='Bayi']"
+        },
+        {
+          "limit": "//div[text()='Limit']"
+        }
+      ]
+    }
+  ]
+}
